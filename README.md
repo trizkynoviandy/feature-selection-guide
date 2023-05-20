@@ -14,9 +14,20 @@ The following feature selection techniques are covered in this guide:
    - RFE is a recursive technique that starts with all features, builds a model, and gradually removes the least significant features based on their importance. It repeatedly fits the model and prunes features until a specified number of features remain.
    - The guide includes a Jupyter Notebook example using scikit-learn's RFE class to showcase the RFE feature selection technique.
 
-3. L1-based Feature Selection (Lasso)
+3. Recursive Feature Addition (RFA)
+
+   - Recursive Feature Addition (RFA) is a feature selection technique that adds features one by one based on their importance.
+   - It starts with an empty set of features and gradually incorporates the most significant feature at each iteration.
+   - RFA is useful for identifying the most informative features in datasets with a large number of features.
+
+4. L1-based Feature Selection (Lasso)
    - L1-based feature selection, such as Lasso, utilizes regularization to encourage sparsity in the feature coefficients. It assigns small or zero coefficients to irrelevant features, effectively removing them from the model.
    - The guide provides a Jupyter Notebook example using scikit-learn's Lasso class to demonstrate L1-based feature selection.
+
+5. Mutual Information
+
+   - Mutual Information is a statistical measure that quantifies the dependence between two variables.
+   - It is used in feature selection to evaluate the relationship between each feature and the target variable.
 
 Each technique is accompanied by code examples. The Jupyter Notebook files are interactive and allow you to experiment with the code and explore the impact of different parameters.
 

@@ -29,6 +29,10 @@ The following feature selection techniques are covered in this guide:
    - Mutual Information is a statistical measure that quantifies the dependence between two variables.
    - It is used in feature selection to evaluate the relationship between each feature and the target variable.
 
+6. Hierarchical Voting
+
+   - It combines multiple feature selection algorithms, assigning scores to features and aggregating them for a final determination of important features. It is a robust approach for complex datasets.
+
 Each technique is accompanied by code examples. The Jupyter Notebook files are interactive and allow you to experiment with the code and explore the impact of different parameters.
 
 ## Getting Started
@@ -49,6 +53,8 @@ To get started with the feature selection guide, follow these steps:
 Here are some additional resources for further reading on feature selection:
 
 - [Scikit-learn Feature Selection](https://scikit-learn.org/stable/modules/feature_selection.html)
+- [Xverse](https://github.com/Sundar0989/XuniVerse)
+- [Feature Engine](https://feature-engine.trainindata.com/en/latest/api_doc/selection/index.html)
 
 These resources provide additional insights, explanations, and variations of feature selection techniques that you can explore to deepen your understanding.
 

@@ -33,6 +33,10 @@ The following feature selection techniques are covered in this guide:
 
    - It combines multiple feature selection algorithms, assigning scores to features and aggregating them for a final determination of important features. It is a robust approach for complex datasets.
 
+7. Boruta
+
+   - Boruta is a feature selection technique that uses random forests to determine feature importance. It compares each feature's importance with randomly generated shadow features to identify significant features.
+
 Each technique is accompanied by code examples. The Jupyter Notebook files are interactive and allow you to experiment with the code and explore the impact of different parameters.
 
 ## Getting Started
